@@ -1,0 +1,156 @@
+/* * {
+    border: red solid;
+} */
+
+
+body {
+    background: linear-gradient(335deg, rgb(116, 112, 111) 0%, rgb(197, 195, 190) 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.welcome {
+    z-index: 1;
+    padding-top: 2px;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px rgb(0,0,0),
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.nav-link{
+    color: white;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+}
+
+.box {
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-text {
+    text-align: center;
+}
+
+.photos {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.middle-container {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+  }
+  
+  hr {
+    border: dotted white 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+.bottom {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(0,0,0) 40%);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.map-iframe {
+    width: 250px;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+} 
+
+.tiny {
+    margin: 3px;
+}
+
+.copyright {
+    display: flex;
+    line-height: 40px;
+    font-size: 0.7em;
+    justify-content: center;
+    color: white;
+}
